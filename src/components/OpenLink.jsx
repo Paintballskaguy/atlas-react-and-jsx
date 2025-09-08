@@ -1,3 +1,4 @@
+import React from 'react';
 const OpenLink = ({ link }) => {
   const handleClick = () => {
     window.open(link, '_blank', 'noopener,noreferrer');
