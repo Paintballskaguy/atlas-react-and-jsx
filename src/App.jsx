@@ -2,11 +2,13 @@ import React from 'react';
 import Header from "./components/Header";
 import Section from "./components/Section";
 import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
     <div className="app">
       <Header />
+       
             <Section title="What is react?">
         <p>
           React is a JavaScript library for building user interfaces, particularly 
@@ -41,6 +43,8 @@ function App() {
           label="React Crash Course by Traversy Media" 
         />
       </Section>
+
+      <AboutMe />
     </div>
   );
 }

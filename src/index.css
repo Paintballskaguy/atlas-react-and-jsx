@@ -102,7 +102,7 @@ li:first-child {
 }
 
 .helpful-resource,
-.helpful-resource a {
+.helpful-resource a {  
   color: var(--offwhite);
   text-decoration: none;
   display: flex;
