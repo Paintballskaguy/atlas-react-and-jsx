@@ -1,5 +1,6 @@
 import linkedinSvg from '../assets/linkedin.svg';
 import githubSvg from '../assets/github.svg';
+import React from 'react';
 
 const SocialLinks = () => {
   return (

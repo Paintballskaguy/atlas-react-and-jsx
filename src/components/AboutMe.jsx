@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <img 
-        src="/src/assets/JohnWilson5.jpg" 
+        src="./src/assets/JohnWilson5.jpg" 
         alt="Professional portrait" 
         className="about-me-photo"
       />

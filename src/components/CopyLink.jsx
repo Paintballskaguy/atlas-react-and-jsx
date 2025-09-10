@@ -17,7 +17,7 @@ const CopyLink = ({ link }) => {
   return (
     <div className="copy-link-container">
       <img 
-        src="/src/assets/copy.svg" 
+        src="./src/assets/copy.svg" 
         alt="Copy link" 
         className="copy"
         onClick={handleCopy}

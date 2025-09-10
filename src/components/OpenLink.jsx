@@ -1,4 +1,5 @@
 import React from 'react';
+
 const OpenLink = ({ link }) => {
   const handleClick = () => {
     window.open(link, '_blank', 'noopener,noreferrer');
@@ -12,7 +13,7 @@ const OpenLink = ({ link }) => {
       onClick={handleClick}
       className="open-link"
     >
-      <img src="/src/assets/open.svg" alt="Open link" />
+      <img src="./src/assets/open.svg" alt="Open link" />
     </a>
   );
 };
