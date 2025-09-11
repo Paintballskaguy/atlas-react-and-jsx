@@ -1,4 +1,5 @@
 import React from 'react';
+import opimg from '../assets/open.svg';
 
 const OpenLink = ({ link }) => {
   const handleClick = () => {
@@ -13,7 +14,7 @@ const OpenLink = ({ link }) => {
       onClick={handleClick}
       className="open-link"
     >
-      <img src="./src/assets/open.svg" alt="Open link" />
+      <img src={ opimg } alt="Open link" />
     </a>
   );
 };

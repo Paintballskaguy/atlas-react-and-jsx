@@ -1,10 +1,11 @@
 import React from 'react';
+import johnWilsonPhoto from '../assets/JohnWilson5.jpg';
 
 const AboutMe = () => {
   return (
     <div className="about-me">
       <img 
-        src="./src/assets/JohnWilson5.jpg" 
+        src={johnWilsonPhoto} 
         alt="Professional portrait" 
         className="about-me-photo"
       />
